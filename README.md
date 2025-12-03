@@ -1,80 +1,155 @@
+
+
+````markdown
 # 🎓 Course Helper App
 
-**Course Helper** is a comprehensive web application designed to help students and administrators manage university course details effectively. It provides a user-friendly interface to track, add, update, and delete course information.
+Course Helper is a full-stack web application that helps students and administrators manage university course information efficiently. It provides a clean and responsive dashboard for viewing, adding, editing, and deleting course records.
 
 ---
 
 ## ✨ Features
 
-Based on the current build, the application includes the following core functionalities:
-
-* **🔐 User Authentication:** Secure login page with a modern UI to restrict access.
-* **📋 Course Dashboard:** A visual grid layout displaying all available courses with thumbnails, titles, descriptions, course codes, and credits.
-* **➕ Add New Courses:** An intuitive modal form to easily input new course details (Name, Code, Credits, Description, and Image URL).
-* **✏️ Edit & Update:** Click on any course to view full details and update information as needed.
-* **🗑️ Delete Courses:** Option to remove outdated or incorrect courses from the database directly from the detailed view.
+- 🔐 User-friendly interface  
+- 📋 Course dashboard for listing courses  
+- ➕ Add new courses  
+- ✏️ Edit existing courses  
+- 🗑️ Delete courses  
+- 📸 Visual UI with screenshots  
+- ⚡ Fast and responsive design  
 
 ---
 
 ## 📸 Screenshots
 
-| **Login Screen** | **Course Dashboard** |
-|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/PLACEHOLDER_FOR_LOGIN_IMAGE" width="400" alt="Login Screen"> | <img src="https://github.com/user-attachments/assets/PLACEHOLDER_FOR_DASHBOARD_IMAGE" width="400" alt="Course Dashboard"> |
-| *Secure user entry point* | *Overview of all enrolled/available courses* |
+### Login Screen
+<img src="./Screenshot%202025-12-03%20at%2011.50.40.png" width="800">
 
-| **Add New Course** | **Edit/Delete Course** |
-|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/PLACEHOLDER_FOR_ADD_IMAGE" width="400" alt="Add Course Modal"> | <img src="https://github.com/user-attachments/assets/PLACEHOLDER_FOR_EDIT_IMAGE" width="400" alt="Edit Course Modal"> |
-| *Form to register a new course* | *Manage existing course details* |
+---
+
+### Dashboard
+<img src="./Screenshot%202025-12-03%20at%2011.50.47.png" width="800">
+
+---
+
+### Add Course
+<img src="./Screenshot%202025-12-03%20at%2011.50.59.png" width="800">
+
+---
+
+### Edit / Delete Course
+<img src="./Screenshot%202025-12-03%20at%2011.51.04.png" width="800">
 
 ---
 
 ## 🚀 Getting Started
 
-Follow these instructions to get a copy of the project running on your local machine.
-
-### Prerequisites
-
-* **Node.js** (v14.0.0 or higher)
-* **npm** (Node Package Manager)
-
-### Installation
-
-1.  **Clone the repository**
-    ```bash
-    git clone [https://github.com/adibakhan21/course-helper.git](https://github.com/adibakhan21/course-helper.git)
-    cd course-helper
-    ```
-
-2.  **Install dependencies**
-    ```bash
-    npm install
-    ```
-
-3.  **Start the development server**
-    ```bash
-    npm start
-    ```
-    The app should now be running on `http://localhost:3002` (or your configured port).
+Follow these steps to run the project locally.
 
 ---
 
-## 🛠️ Tech Stack
+### Prerequisites
 
-* **Frontend:** React.js
-* **Styling:** CSS / Modern UI Components
-* **State Management:** React Hooks
-* **Routing:** React Router (implied for navigation between login and dashboard)
+Ensure you have the following installed:
+
+- Node.js (v14+)
+- npm or yarn
+- Git
+
+---
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone git@github.com:adibakhan21/course_helper.git
+cd course_helper
+````
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the application:
+
+```bash
+npm start
+```
+
+Open browser:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🧩 Tech Stack
+
+### Frontend
+
+* React.js
+* HTML5
+* CSS3
+* JavaScript (ES6)
+
+### Backend
+
+* Node.js
+* Express.js
+
+### Developer Tools
+
+* Git & GitHub
+* npm
+* VS Code
+* Chrome Dev Tools
+
+---
+
+## 📂 Project Structure
+
+```
+course_helper/
+│
+├── frontend/
+│   ├── components/
+│   ├── App.js
+│   └── index.js
+│
+├── backend/
+│   ├── server.js
+│   └── routes/
+│
+├── README.md
+└── package.json
+```
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you have suggestions for improvements or bug fixes:
+We welcome contributions!
 
-1.  Fork the repository.
-2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  Push to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
+1. Fork the repository
+2. Create your branch
+3. Commit your changes
+4. Push to GitHub
+5. Submit a Pull Request
+
+---
+
+## 📬 Author
+
+**Adiba Khan**
+Built as a learning and portfolio project.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+
