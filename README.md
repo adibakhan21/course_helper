@@ -1,6 +1,6 @@
 
 
-````markdown
+
 # 🎓 Course Helper App
 
 Course Helper is a full-stack web application that helps students and administrators manage university course information efficiently. It provides a clean and responsive dashboard for viewing, adding, editing, and deleting course records.
