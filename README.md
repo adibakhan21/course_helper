@@ -21,22 +21,22 @@ Course Helper is a full-stack web application that helps students and administra
 
 ## 📸 Screenshots
 
-### Login Screen
+### Dashboard
 <img src="./Screenshot%202025-12-03%20at%2011.50.40.png" width="800">
 
 ---
 
-### Dashboard
+### Add Course
 <img src="./Screenshot%202025-12-03%20at%2011.50.47.png" width="800">
 
 ---
 
-### Add Course
+### Edit / Delete Course
 <img src="./Screenshot%202025-12-03%20at%2011.50.59.png" width="800">
 
 ---
 
-### Edit / Delete Course
+### Login Screen
 <img src="./Screenshot%202025-12-03%20at%2011.51.04.png" width="800">
 
 ---
